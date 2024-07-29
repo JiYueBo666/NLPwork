@@ -1,7 +1,7 @@
 import jieba
 import  numpy as np
 
-#代码部分参考了 知乎up主 叉烧的文章
+#代码参考了 知乎up主 机智的叉烧 的文章
 class TokenDistance():
     def __init__(self,idf_path):
         idf_dict = {}

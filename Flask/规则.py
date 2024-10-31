@@ -3,7 +3,7 @@ import jieba
 from ReadData import ReadData
 
 readData = ReadData(epoch_size=1024, negative_probility=0.5)
-readData.LoadData(r"E:\badouFile\第八周\week8 文本匹配问题\week8 文本匹配问题\data\train.json")
+readData.LoadData(r"E:data\train.json")
 
 questions=[]
 class_=[]
